@@ -5,13 +5,15 @@ import {
   ApolloProvider,
   createHttpLink,
 } from '@apollo/client';
-import { setContext } from '@apollo/client/link/context';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {
   ChakraProvider,
   theme,
 } from '@chakra-ui/react';
+import { setContext } from '@apollo/client/link/context';
+
 import Home from './pages/Home';
+import NodePage from './pages/NodePage';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -41,6 +43,10 @@ function App() {
             <Route
               path="/"
               element={<Home />}
+            />
+            <Route
+              path="/NodeJS"
+              element={<NodePage />}
             />
           </Routes>
         </Router>

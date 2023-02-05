@@ -1,0 +1,10 @@
+{
+    "heading": "NodeJS Day 1",
+    "quote": "Don't be afraid.. it's just JavaScript",
+    "text": "Full Stack web Development utilizes: HTML, CSS, JavaScript, API, NodeJS, ExpressJs and MySQL (These are some of the options)",
+    "definition": "Node.JS is an environment that is designed to be run outside the browser (server-side). It is an open source, cross-platform JavaScript runtime environment.",
+    "note": "NEW FILE: package.json contains dependencies",
+    "anotherNote": "NodeJS utilize ES6 syntax",
+    "code": "const someName = () => { your code here }",
+    "installationLink": "https://nodejs.org/en/"
+}
