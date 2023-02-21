@@ -6,6 +6,7 @@ describe("MathFun", ()=> {
         it("should return an obj containing a number when called with the new keyword", () => {
             const obj = new MathFun();
             expect("number" in obj).toEqual(true);
-        })
-    })
+        });
+    });
+    
 });
