@@ -6,16 +6,16 @@ import {
     Center
 } from "@chakra-ui/react";
 
-const Footer = () => {
+const Footer = ({ previousPage, previousTitle, nextPage, nextTitle }) => {
     return (
         <Center>
             <Box alignItems={'center'}>
                 <Breadcrumb>
                     <BreadcrumbItem>
-                        <BreadcrumbLink>Previous Topic</BreadcrumbLink>
+                        <BreadcrumbLink href={previousPage} title={previousTitle}>Previous Topic</BreadcrumbLink>
                     </BreadcrumbItem>
                     <BreadcrumbItem>
-                        <BreadcrumbLink>Next Topic</BreadcrumbLink>
+                        <BreadcrumbLink href={nextPage} title={nextTitle}>Next Topic</BreadcrumbLink>
                     </BreadcrumbItem>
                 </Breadcrumb>
             </Box>

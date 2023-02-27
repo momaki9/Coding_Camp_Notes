@@ -1,0 +1,42 @@
+[
+    {
+        "title": "HTML and CSS",
+        "URL": "/html&css"
+    },
+    {
+        "title": "JavaScript",
+        "URL": "/javascript"
+    },
+    {
+        "title": "jQuery",
+        "URL": "/jquery"
+    },
+    {
+        "title": "ExpressJS",
+        "URL": "/express"
+    },
+    {
+        "title": "Databases",
+        "URL": "/db"
+    },
+    {
+        "title": "React",
+        "URL": "/react"
+    },
+    {
+        "title": "NodeJS",
+        "URL": "/nodejs"
+    },
+    {
+        "title": "Test Driven Development",
+        "URL": "/TDD"
+    },
+    {
+        "title": "General Troubleshooting Strategies",
+        "URL": "/dev"
+    },
+    {
+        "title": "Tips and Other Helpful Tools",
+        "URL": "/tips"
+    }
+]
