@@ -1,0 +1,51 @@
+{
+    "title": "JavaScript",
+    "background": "",
+    "quote": "DRY - Don't Repeat Yourself!",
+    "setup": "JavaScript can be writtin inside the HTML file (not recommended) inside <script></script> tags. Alternatively, we can have an external JavaScript file (with .js extension) that contains our JavaScript code and link it using a source attribute inside <script></script> tags. It is recommended to place the script tags towards the end of the body, or as the last line in the body of the HTML. We want the JavaScript to be the last thing to load, contrary to CSS where we want that to load first.",
+    "tips": {
+        "liveServer": "For VS Code, using Live Server extension is very helpful during development."
+    },
+    "notes": {
+        "variables": "Variables can be declared using the var key word, followed by the variable name. To assign the variable a value, use the equal sign after the variable name. (e.g. var myVariable = '12x') Variables can have their values changed or reassigned. This can be done by calling on a variable that's already been assigned/has a value then giving it a different value (e.g. myVariable = '12x + 3';).",
+        "dataType": "Some examples of primitive data types include string, number, boolean, undefined, and null. We can also reassign data types. JavaScript is a `losely-typed langauge` meaning that when a variable is declared, we do not have to specify the variable type. It also means that when variables are reassigned, their data types could also be changed."
+    },
+    "tools": {
+        "concatenation": {
+            "methodOne": "Method 1: Using the plus sign. Example: 'My expression is ' + myVariable // returns 'My expression is 12x + 3'; Note the space between is and the quote which is needed in this method of concatenation.",
+            "methodTwo": "Method 2: Using a comma instead of a plus sign. Example 'My expression is ', myVariable // also returns 'My expression is 12x + 3';",
+            "methodThree": ""
+        },
+        "consoleLog": "Console.log is a very useful tool to test code during development. To see the output of this tool, open the HTML file in the browser then open the Console (Right click + Inspect then click on Console tab, or Press Control + Shift + J).",
+        "typeof": "typeof is a Javascript function that works with console.log to log the data type of the variable being passed into it. For example, console.log(typeof myVariable) should return 'string'.",
+        "operators": {
+            "add": "Use plus (+) sign to add 2 numerical values.",
+            "subtract": "Use minus (-) sign to subtract 2 numerical values.",
+            "divide": "Use forward slash (/) to divide 2 numerical values.",
+            "multiply": "Use asterisk (*) to multiply 2 numerical values.",
+            "modulus": "The modulus or modulo operater, denoted by percent (%) sign, returns the remainder of a division of 2 numerical values.",
+            "comparisonOperators": {
+                "looseEquality": "Use double equal sign '==' to see if two values are equal (regardless of the data type). For example, let's declar two variables: var a = 10; var b = '10'; If we compare the equality of these two variables using two equal signs, we expect a 'true' result or output. (i.e. console.log(a == b) // returns true). Only the VALUES of the variables are compared.",
+                "strictEquality": "Use strict literal denoted by using 3 equal signs '===' to see if the value AND the data type are equal. In the example above, console.log(a === b) would return false.",
+                "looseInequality": "Use exclamation point before 1 equal sign (!=) to test for inequality of the values. Again, this only looks at the values and not the data types.",
+                "strictInequality": "Use exclamation point before 2 equal signs (!==) to test for inequality of the values AND the data type.",
+                "greaterThan": ">",
+                "greaterThanOrEqual": ">=",
+                "lessThan": "<",
+                "lessThanOrEqual": "<="
+            },
+            "logicalOperators": {
+                "both": "&& -- returns true only when the expressions grouped are both true",
+                "or": "|| -- returns true when one of the expressions is true. Only returns false when all of the expressions are false.",
+                "not": "! -- returns the opposite/inverse value"
+            }
+        }
+
+    }, 
+    "dataTypes": {
+        "undefined": "Undefined is a data type that is associated with a variable declared and stored in memory but doesn't have an assigned value. (Stored in memory but not defined)",
+        "string": "String is a data type based on text (VARCHAR) including letters and other characters. These are enclosed in either single or double quotes.",
+        "number": "Number or numerical data type refers to values associated with numbers (0 - 9). Numerical values do not need quotes around them (Otherwise the data type would be considered a string). Decimal values are allowed in this data type (i.e. 3.14). ",
+        "boolean": "Boolean data type only holds 2 different values: true (1) or false (0). These are defined by using the two keywords true and false, all in lowercase. (e.g. var empty = true; )"
+    }
+}

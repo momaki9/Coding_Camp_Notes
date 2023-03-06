@@ -15,6 +15,7 @@ import { setContext } from '@apollo/client/link/context';
 import Home from './pages/Home';
 import NodePage from './pages/NodePage';
 import UnitTest from './pages/UnitTest';
+import JavaScriptPage from './pages/JavaScript';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -52,6 +53,10 @@ function App() {
             <Route
               path="/TDD"
               element={<UnitTest />}
+            />
+            <Route
+              path="/javascript"
+              element={<JavaScriptPage />}
             />
           </Routes>
         </Router>
