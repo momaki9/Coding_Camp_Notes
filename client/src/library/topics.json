@@ -37,6 +37,14 @@
     },
     {
         "title": "Tips and Other Helpful Tools",
-        "URL": "/tips"
+        "URL": "/tips",
+        "listByTopic": {
+            "GitHub": {
+                "basicInfo": "",
+                "branching": ""
+            },
+            "WindowObject": {},
+            "MathLibrary": {}
+        }
     }
 ]
