@@ -1,0 +1,9 @@
+{
+    "title": "Web APIs",
+    "definition": "An API (application Programming Interface) is a set of methods, properties, events, and URLs that developers use to interact with components of a user's web browser. Web APIs are built into the web browser and contain methods that allow us to manipulate a webpage using JavaScript.",
+    "background": "A web browser, or browser, is a program used to access information on the World Wide Web. Browsers access information on the web. Every web page is effectively a series of files sitting on a server somewhere. Browsers use the URL (Uniform Resource Locator) to retrieve resources from a web server and display them on a user's device. The client (user/browser) has an IP address associated with it. For example, when you log into Netflix for example from your browser, the browser (on your behalf) sends a request to Netflix's server to access its site. The server then responds and serves up the files necessary (HTML, CSS, JS, etc) to access the site, thus fulfilling the request.",
+    "notesByTopic": {
+        "DOM": "DOM stands for the Document Object Model. When we open a webpage, the browser creates a tree of objects that represent the opened page. That tree of objects is the DOM.",
+        "this": "The window object represents the browser window. The window object contains the document as a property. Console logging window.document returns the html DOM for the webpage. You can also log the body of the html document by console logging document.body. -- 51:41 -- skipped folder 3"
+    }
+}

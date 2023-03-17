@@ -44,7 +44,11 @@
                 "branching": ""
             },
             "WindowObject": {},
-            "MathLibrary": {}
+            "MathLibrary": {},
+            "NumberObject": {
+                "parseInt()": "",
+                "Number.isNan()": ""
+            }
         }
     }
 ]

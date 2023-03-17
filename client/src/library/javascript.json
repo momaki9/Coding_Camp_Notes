@@ -80,6 +80,8 @@
         "objects": "is a very useful data type that allows us to store data in key value pairs. Use open and close curly braces to write an object. The key is written first, followed by a colon to set a value equal to that key. The value can be of different data types, and one object can have key value pairs that contain different data types. Each key value pair is separated by a comma."
     },
     "other": {
-        "if-else": "if () true?"
+        "if-else": "if () true?",
+        "parseInt": "",
+        "isNaN": ""
     }
 }
