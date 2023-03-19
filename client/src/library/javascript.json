@@ -38,7 +38,8 @@
                     "splice": "allows us to remove a specified element from an array.",
                     "unshift": ".unshift('arg'), unlike the push method, the unshift method adds an element at the start of an existing array. Takes in one argument that corresponds to the element to be added.",
                     "pop": ".pop() removes the last element of an array.",
-                    "concat": "arrayOne.concat(arrayTwo) this joins two arrays together, as demonstrated in the syntax example, arrayTwo is added at the end of arrayOne once concat is used. A new array is returned."
+                    "concat": "arrayOne.concat(arrayTwo) this joins two arrays together, as demonstrated in the syntax example, arrayTwo is added at the end of arrayOne once concat is used. A new array is returned.",
+                    "includes": "it is used to compare an element against an array to see if the element is included in the array. For example, if we want to see if the element 'D' is in our testArray = ['A', 'B' , 'C', 'D'], we would write this code: testArray.includes(D);"
                 },
                 "stringMethods": {
                     "replace": ".replace('old', 'new') replaces a specified string with a new one, as indicated by the two arguments it takes.",

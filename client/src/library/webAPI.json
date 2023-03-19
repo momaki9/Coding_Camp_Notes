@@ -11,7 +11,23 @@
             "querySelector": "To access an element by id, you can use .querySelector('#id-name');",
             "setAttribue": "It is a method used to change the attribute of the html element(s) we choose; It takes in two parameters, the first parameter is the attribute that we want to change, and the second parameter is the type of attribue and the new value of that attribute. Example, .setAttribue('style', 'font-size: 40px;') which changes the font size of the selected element(s). To change mutliple attribute types, separate each one with a space. For example, .setAttribue('style', 'font-size: 30px; font-weight: bold; text-decoration: underline;'). The setAttribue method can be used to provide the image source. Example, .setAttribue('src', './assets/images/image.jpeg'). Note: in order to set the attribute of many elements (such as an array of elements as a result of using querySelectorAll), a for loop is needed to set the attribute to every element.",
             "createElement": "If we want to dynamically create an html element, use the createElement(htmlTag) method which takes a parameter equal to the html tag name we want created.",
-            "appendChild": "The appendChild() method works along with the createElement() method to append or add the newly created element to the html page. This method is chained to the html tag we want the newly made element added. For example, if we say body.appendChild(newElement), the newElement will be added to the body of the html."
-        }
+            "appendChild": "The appendChild() method works along with the createElement() method to append or add the newly created element to the html page. This method is chained to the html tag we want the newly made element added. For example, if we say body.appendChild(newElement), the newElement will be added to the body of the html.",
+            "textContent": "This is used to add text to an HTML element. Syntax element.textContent = 'The Text I Want'. This returns the inner text content of ALL children of the node it is called on.",
+            "innerHTML": "This property is the easiest to differentiate from the other two. .innerHTML, like .textContent, returns the inner text content of all child nodes. The difference is that .innerHTML returns the non-rendered text content as well as the HTML tags of the child nodes. ",
+            "innerText": "renders text with CSS attributes"
+        },
+        "timerAndIntervals": {
+            "setInterval": "A JavaScript built-in method. It takes two parameters, the first is a function that we want executed during the time interval, the second is the time interval specified in milliseconds.",
+            "clearInterval": "Stops the action in the function inside setInterval at a specified time."
+        },
+        "addEventListener": "It is a built-in JavaScript method that allows us to listen to when an event occurs. It takes in two parameters, the first is the event type that we are listening to, and the second is a function that we want performed when the event happens.",
+        "preventDefault": "The event.preventDefault() is a method that prevents the page from reloading when a button is submitted.",
+        "keyboardEvent": {
+            "intro": "Keyboard events are a type of event listeners that listen for events other than clicking.",
+            "change": "Used as the type of event in an event listener with drop down options.",
+            "keydown": "Also used as the type of event in an event listener when a keyboard key is pressed down. When used in an event listener, an object named key is attached to the event object, thus the key pressed should be stored under 'event.key'.",
+            "keyup": "similar to keydown, this event is triggered when the pressed key is released."
+        },
+        "eventBubbling": "In the case of a button that is nested inside of an element that has another button, when a click event occurs, it will traverse up the DOM and create a chain of events. To prevent this, we just need to add the method event.stopPropagation();"
     }
 }
