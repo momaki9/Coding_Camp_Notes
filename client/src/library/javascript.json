@@ -44,7 +44,8 @@
                 "stringMethods": {
                     "replace": ".replace('old', 'new') replaces a specified string with a new one, as indicated by the two arguments it takes.",
                     "toUpperCase": ".toUpperCase() converts a string to all upper case.",
-                    "toLowerCase": ".toLowerCase() converts a string to all lower case."
+                    "toLowerCase": ".toLowerCase() converts a string to all lower case.",
+                    "trim": "A JavaScript method that removes white space in the beinging and end of a string."
                 },
                 "objectMethods": {}
             }

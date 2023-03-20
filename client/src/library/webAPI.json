@@ -14,7 +14,9 @@
             "appendChild": "The appendChild() method works along with the createElement() method to append or add the newly created element to the html page. This method is chained to the html tag we want the newly made element added. For example, if we say body.appendChild(newElement), the newElement will be added to the body of the html.",
             "textContent": "This is used to add text to an HTML element. Syntax element.textContent = 'The Text I Want'. This returns the inner text content of ALL children of the node it is called on.",
             "innerHTML": "This property is the easiest to differentiate from the other two. .innerHTML, like .textContent, returns the inner text content of all child nodes. The difference is that .innerHTML returns the non-rendered text content as well as the HTML tags of the child nodes. ",
-            "innerText": "renders text with CSS attributes"
+            "innerText": "renders text with CSS attributes",
+            "mathces": "This method is used with HTML elements to find and match a specific HTML element. For example, if we use querySelector to store a div that contains multiple elements, we can use the .matches method to select a specific element from that div.",
+            "value": "Used to retrieve the data or value of an HTML element."
         },
         "timerAndIntervals": {
             "setInterval": "A JavaScript built-in method. It takes two parameters, the first is a function that we want executed during the time interval, the second is the time interval specified in milliseconds.",
@@ -22,12 +24,27 @@
         },
         "addEventListener": "It is a built-in JavaScript method that allows us to listen to when an event occurs. It takes in two parameters, the first is the event type that we are listening to, and the second is a function that we want performed when the event happens.",
         "preventDefault": "The event.preventDefault() is a method that prevents the page from reloading when a button is submitted.",
+        "target": "A click event has a target that is equal to the html element that is clicked. This can be attained by using event.target,",
         "keyboardEvent": {
             "intro": "Keyboard events are a type of event listeners that listen for events other than clicking.",
             "change": "Used as the type of event in an event listener with drop down options.",
             "keydown": "Also used as the type of event in an event listener when a keyboard key is pressed down. When used in an event listener, an object named key is attached to the event object, thus the key pressed should be stored under 'event.key'.",
             "keyup": "similar to keydown, this event is triggered when the pressed key is released."
         },
-        "eventBubbling": "In the case of a button that is nested inside of an element that has another button, when a click event occurs, it will traverse up the DOM and create a chain of events. To prevent this, we just need to add the method event.stopPropagation();"
+        "eventBubbling": "In the case of a button that is nested inside of an element that has another button, when a click event occurs, it will traverse up the DOM and create a chain of events. To prevent this, we just need to add the method event.stopPropagation();",
+        "dataAttributes": {
+            "intro": "It could be used to store information in the HTML tag. The data attributes can be accessed inside the selected HTML element using 'dataset'.",
+            "dataAnimate": "An example of a data attribute that is used on an image tag to animate an image.",
+            "dataStill": "An example of a data attribute that is used on an image tag to make a gif static.",
+            "dataState": "Defines the current state of the different data attribute we are using. If it's value is set to 'still', then data-still would be active, and so on.",
+            "getAttribute": "Interfaces with HTML elements and returns the value of the specificed attribute as a parameter of the method. For example, element.getAttribute('data-state') would return the value of the data attribute data-state the element has."
+        },
+        "localStorage": {
+            "intro": "local stroage can be used to store data in the browser. The below methods show how key value pairs are stored locally as data sets.",
+            "setItem": "Used to store data locally in the browser. Takes in two parameters, the first is the name of the data, and the second is the actual data.",
+            "getItem": "Used to access data that is stored locally. Takes in one parameter that is equal to the name of the data.",
+            "objects": "objects can be stored locally as well as key value pairs. We do this by using a couple JSON methods: we use JSON.stringify to convert the object into a string when using localStorage.setItem. Then when we want to retrieve the stringified object, we use the method JSON.parse to convert the stringified object back to an object.",
+            "init": "The init() function fires when the page is loaded. When it is executed, the code inside of it will run first. Since it is a function, it must be called outside of the function to be executed. The init functions dictates what functions run when the page loads."
+        }
     }
 }

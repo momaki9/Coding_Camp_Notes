@@ -8,6 +8,10 @@
         {
             "gitBranch": "When repositories are created in GitHub, a default branch named Main is created. A branch of a repo allows us to work independently on the same code base while making changes that don't interfere with one another.",
             "command": "git branch shows the current branch. To create a new branch, run the command: git branch branchName, where 'branchName' is the name of the new branch created. This command only creates the branch. To switch to the new branch, run the command: git checkout branchName. If you want to create a branch and switch to it right away, run the command: git checkout -b branchName. This command creates the branch with specified name and places you in that branch. The changes on the new branch can be merged with the main branch by first checking out to the main branch then running: git merge branchName. All of these changes are on the local repository."
+        },
+        {
+            "pullRequest": "",
+            "command": ""
         }
     ]
 }
