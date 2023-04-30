@@ -16,6 +16,7 @@ import Home from './pages/Home';
 import NodePage from './pages/NodePage';
 import UnitTest from './pages/UnitTest';
 import JavaScriptPage from './pages/JavaScript';
+import MERN from './pages/MERN';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -57,6 +58,10 @@ function App() {
             <Route
               path="/javascript"
               element={<JavaScriptPage />}
+            />
+            <Route
+              path="/mern"
+              element={<MERN />}
             />
           </Routes>
         </Router>

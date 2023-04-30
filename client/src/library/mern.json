@@ -1,0 +1,4 @@
+{
+    "title": "MERN App: MongoDB, Express, ReactJS, and NodeJS App",
+    "folderLayout": "Typically, a MERN app is organized into two folders: client and server. The client folder contains the files needed for the react front end. This includes the index.html file in the public directory, the various React pages in the src directory, a utils folder containing mutations and queries needed to access the mogno database, and an app.js file that ties all the files together. The server folder contains the server configuration in the config directory, the various models of the database in the models directory, the resolvers and typedefs in the schemas directory, and finally a server.js file that ties the server side all together."
+}
